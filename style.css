@@ -40,7 +40,7 @@ head nav p{
 nav{
 }
 nav p{
-    color: white;
+    color: rgba(255, 255, 255, 0.418);
     text-align: center;
     
 }
@@ -62,7 +62,9 @@ section{
   font-size: 3.5vh;
 
 }
-
+section p{
+    padding-bottom: 2em;
+}
 section.normal{
   background-color: white;
   color: black;
@@ -71,14 +73,26 @@ section.normal{
 section.img{
   background-color: rgba(0, 0, 0, 0.412);
   color: white;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.686);
+  background-attachment: fixed;
  
 }
 section.img p{
     padding: 5px;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.477);
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 1px 5px black;
 }
-
+#img1{
+background-image: url(../desafio-12/imagens/background001.jpg);
+background-position: right center;
+background-size: cover;
+}
+#img2{
+ background-image: url(../desafio-12/imagens/background002.jpg);
+ background-position: right center;
+ background-size: cover;
+}
 footer{
     background-color: black;
     color: white;
